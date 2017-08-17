@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdditionLib_Example' do
+  pod 'AdditionLib', :path => '../'
+
+  target 'AdditionLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
